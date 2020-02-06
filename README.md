@@ -10,5 +10,9 @@ dedica GmbH plymouth theme
 * ``sudo update-initramfs -u -k all``
 
 ## Authors
-* Written by: Jan Philipp Gölz <jan@dedica.team>
+* Written by: Alberto Milone <alberto.milone@canonical.com>
+* Adapted to budgie-remix by: HEXcube <hexcubed@gmail.com> and David Mohammed <foss.freedom@gmail.com>
+* Adapted to TUXEDO Computers by: Vinzenz Vietzke <tux@tuxedocomputers.com>
+* Based on the example provided with the "script plugin" written by Charlie Brej <cbrej@cs.man.ac.uk>
+* Adapted to dedica GmbH by: Jan Philipp Gölz <jan@dedica.team>
 * Logo design by: Alfred Rehbach <mail@alfredrehbach.de>
