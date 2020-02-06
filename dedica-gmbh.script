@@ -38,21 +38,21 @@
 #  Logo design by: Alfred Rehbach <mail@alfredrehbach.de>
 #
 
-# Set the text colour in (rgb / 255)
-text_colour.red = 1.0;
-text_colour.green = 1.0;
-text_colour.blue = 1.0;
+# Set the text color in (rgb / 255)
+text_color.red = 1.0;
+text_color.green = 1.0;
+text_color.blue = 1.0;
 
 # Tinted text #988592
 # For mate, use #dedbd2
-tinted_text_colour.red = 0.87;
-tinted_text_colour.green = 0.86;
-tinted_text_colour.blue = 0.82;
+tinted_text_color.red = 0.87;
+tinted_text_color.green = 0.86;
+tinted_text_color.blue = 0.82;
 
 # Action Text - #ffffff - RGB 255 255 255
-action_text_colour.red = 1.0;
-action_text_colour.green = 1.0;
-action_text_colour.blue = 1.0;
+action_text_color.red = 1.0;
+action_text_color.green = 1.0;
+action_text_color.blue = 1.0;
 
 # Orange - #ff4012 - RGB 255 64 18
 debugsprite = Sprite();
@@ -63,23 +63,23 @@ debugsprite_medium = Sprite();
 prompt_active = 0;
 
 # General purpose function to create text
-fun WriteText (text, colour) {
-    image = Image.Text (text, colour.red, colour.green, colour.blue);
+fun WriteText (text, color) {
+    image = Image.Text (text, color.red, color.green, color.blue);
     return image;
 }
 
 fun ImageToText (text) {
-    image = WriteText (text, text_colour);
+    image = WriteText (text, text_color);
     return image;
 }
 
 fun ImageToTintedText (text) {
-    image = WriteText (text, tinted_text_colour);
+    image = WriteText (text, tinted_text_color);
     return image;
 }
 
 fun ImageToActionText (text) {
-    image = WriteText (text, action_text_colour);
+    image = WriteText (text, action_text_color);
     return image;
 }
 
@@ -174,9 +174,9 @@ fun StringToInteger (str) {
 }
 
 #-----------------------------------------------------------------------------
-# Previous background colour
+# Previous background color
 # #300a24 --> 0.19, 0.04, 0.14
-# New background colour
+# New background color
 # #2c001e --> 0.16, 0.00, 0.12
 #
 # Color for TUXEDO
@@ -185,8 +185,8 @@ fun StringToInteger (str) {
 # Color for dedica GmbH
 # #282828 --> 0.157, 0.157, 0.157
 #
-Window.SetBackgroundTopColor (0.157, 0.157, 0.157);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.157, 0.157, 0.157);  # an equally nice colour on the bottom
+Window.SetBackgroundTopColor (0.157, 0.157, 0.157);     # Nice color on top of the screen fading to
+Window.SetBackgroundBottomColor (0.157, 0.157, 0.157);  # an equally nice color on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 if (bits_per_pixel == 4) {
