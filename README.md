@@ -14,5 +14,6 @@ dedica GmbH plymouth theme
 * Adapted to budgie-remix by: HEXcube <hexcubed@gmail.com> and David Mohammed <foss.freedom@gmail.com>
 * Adapted to TUXEDO Computers by: Vinzenz Vietzke <tux@tuxedocomputers.com>
 * Based on the example provided with the "script plugin" written by Charlie Brej <cbrej@cs.man.ac.uk>
+* Question stuff written by Markus Waas <mail@markuswaas.de>
 * Adapted to dedica GmbH by: Jan Philipp Gölz <jan@dedica.team>
 * Logo design by: Alfred Rehbach <mail@alfredrehbach.de>
