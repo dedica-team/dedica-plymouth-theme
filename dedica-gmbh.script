@@ -1,3 +1,6 @@
+#  Copyright (C) 2020 dedica GmbH
+#  derived from tuxedo-one.script
+#
 #  Copyright (C) 2017 TUXEDO Computers GmbH
 #  derived from budgie-logo.script
 #
@@ -14,7 +17,7 @@
 #
 #  This program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 #  GNU General Public License for more details.
 #
 #  You should have received a copy of the GNU General Public License
@@ -31,6 +34,8 @@
 #
 #  Question stuff written by: Markus Waas <mail@markuswaas.de>
 #
+#  Adapted to dedica GmbH by: Jan Philipp Gölz <jan@dedica.team>
+#  Logo design by: Alfred Rehbach <mail@alfredrehbach.de>
 #
 
 # Set the text colour in (rgb / 256)
