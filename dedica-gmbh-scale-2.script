@@ -1,9 +1,12 @@
+#  Copyright (C) 2020 dedica GmbH
+#  derived from tuxedo-one-scale-2.script
+#
 #  Copyright (C) 2017 TUXEDO Computers GmbH
 #  derived from budgie-logo-scale-2.script
-#  
+#
 #  Copyright (C) 2016 HEXcube and David Mohammed
 #  derived from ubuntu-mate-logo-scale-2.script - boot splash plugin
-# 
+#
 #  Copyright (C) 2014 Ubuntu MATE Developers
 #  Copyright (C) 2009 Canonical Ltd.
 # 
@@ -31,6 +34,8 @@
 #
 #  Question stuff written by: Markus Waas <mail@markuswaas.de>
 #
+#  Adapted to dedica GmbH by: Jan Philipp Gölz <jan@dedica.team>
+#  Logo design by: Alfred Rehbach <mail@alfredrehbach.de>
 # 
 
 # Set the text colour in (rgb / 256)
