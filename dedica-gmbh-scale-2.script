@@ -195,9 +195,13 @@ fun StringToInteger (str) {
 # #2c001e --> 0.16, 0.00, 0.12
 #
 # Color for TUXEDO
-# #212121 -->  0.129, 0.129, 0.129
-Window.SetBackgroundTopColor (0.129, 0.129, 0.129);     # Nice color on top of the screen fading to
-Window.SetBackgroundBottomColor (0.129, 0.129, 0.129);  # an equally nice color on the bottom
+# #212121 --> 0.129, 0.129, 0.129
+#
+# Color for dedica GmbH
+# #282828 --> 0.157, 0.157, 0.157
+#
+Window.SetBackgroundTopColor (0.157, 0.157, 0.157);     # Nice color on top of the screen fading to
+Window.SetBackgroundBottomColor (0.157, 0.157, 0.157);  # an equally nice color on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 if (bits_per_pixel == 4) {
