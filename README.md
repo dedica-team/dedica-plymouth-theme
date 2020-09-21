@@ -4,7 +4,7 @@ dedica GmbH plymouth theme
 ## How to use
 
 * ``cd /usr/share/plymouth/themes/``
-* ``sudo git clone https://github.com/basseur/dedica-plymouth-theme.git dedica-gmbh``
+* ``sudo git clone https://github.com/dedica-team/dedica-plymouth-theme.git dedica-gmbh``
 * ``sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/dedica-gmbh/dedica-gmbh.plymouth 100``
 * ``sudo update-alternatives --config default.plymouth``
 * ``sudo update-initramfs -u -k all``
